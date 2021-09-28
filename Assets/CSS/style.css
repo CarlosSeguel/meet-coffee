@@ -1,0 +1,208 @@
+body{
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    border: 0;
+}
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.subtitulo {
+    font-weight: 400;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.75em;
+}
+.subtitulo, h4, h5{
+    font-weight: 400;
+}
+h5 {
+    font-size: 1.25em;
+}   
+.oscuro{
+    background: #000f08;
+    color: #ffffff;
+}
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav .ul-nav li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.ubicacion {
+    margin-top: 153px;
+}
+
+.ubicacion h2 {
+    font-size: 45px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+.ubicacion p {
+    font-size: 25px;
+}
+.evento img {
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+
+.eventos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eventos h2 {
+    margin-bottom: 1em;
+}
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 3.125rem 3.125rem 6.25rem 3.125rem;
+}  
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.centrado img {
+    display: block;
+    float: left;
+}
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    white-space: nowrap;
+    padding: 50px 0px 50px 150px;
+}
+.charla-texto {
+    margin-left: 40px;
+    float: left;
+}
+.charla-texto h2, h3, h4, h5 {
+    margin: 0;
+}
+.charla-texto h2{
+    font-size: 45px;
+}
+#eventos h3 {
+    margin: 1em auto;
+}
+
+section, footer {
+    margin-top: 75px;
+}
+.footer {
+    padding: 50px;
+}    
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.espacio-hero {
+    padding-top: 50px;
+}
+.icono {
+    width: 2rem;
+}
+.icono svg {
+    fill: #ffffff;
+}
+.ul-nav{       
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px 0px 50px 0px;
+}
+.ubicacion-nav{
+    margin: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+} 
+.proxima-charla-nav{
+    margin: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.eventos-nav{
+    margin: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.contacto-nav{
+    margin: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 101px;
+    padding-bottom: 27px; */
+}
+.iconos{
+    margin-top: 101px;
+}        
+.iconos-eventos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}        
+.eventos{
+    padding-left: 0;
+    padding-right: ;
+    width: 100%
+    }
+.evento-principal{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body-evento-1{
+    padding: 100px 418px 0px 417px;
+}
+.section-style{
+    text-align: justify;
+}
+.section-style img{
+    width: 100%;
+}
+.h1-evento-1 h1{
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+}
